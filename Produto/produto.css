@@ -1,0 +1,82 @@
+/* Css padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(120deg,  rgb(255,45,85), rgb(94, 92, 230));
+ }
+
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.modal {
+    background-color: rgb(242, 242, 247);
+    position: relative;
+    left: 10%;
+    right: 10%;
+    padding: 5vh;
+    padding: 5vw;
+    width: 80%;
+    box-shadow: 0 0 5px 0 #e2e2e2;
+    margin: 5% 0;
+}
+
+
+.modal ul li {
+    display: inline-block;
+    width: 40%;
+
+}
+
+ 
+.botao-custom{
+    position: relative;
+    left: 80%;
+    margin-top: 2vh;
+    background-color: rgb(0, 132,255);
+    height: 7vh;
+    width: 10vw;
+    border-radius: 8px;
+    color:rgb(242, 242, 247);
+    border: none;
+}
+
+
+.produto {
+    position: absolute;
+    top: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.produto h1 {
+    margin-bottom: 10%;
+    padding-bottom: 1%;
+}
+.produto h2 {
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    display: inline-block;
+}
+
+.produto .preco {
+    margin-top: 8%;
+}
+
+
+footer{
+    color: rgb(242, 242, 247);
+    padding: 20px;
+    background-color: rgb(44, 44, 46);
+    text-align: center;
+    box-shadow: 0 0 2px 0 rgb(44, 44, 46);
+}
